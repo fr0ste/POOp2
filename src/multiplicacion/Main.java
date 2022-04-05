@@ -1,6 +1,7 @@
 /**************
  * 
  * Autor: Joel Francisco Figueroa Martinez
+
  * 
  * 
  * Fecha de creacion: 04/04/2022
@@ -10,7 +11,6 @@
  * 
  * 
  * Descripcion: main para multiplicación de dos numeros enteros 
- * 
  * 
  * 
  * 
