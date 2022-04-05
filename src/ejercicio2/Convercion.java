@@ -18,25 +18,21 @@ package ejercicio2;
 
 public class Convercion {
 
-	
-	double pesos,dolares;
-	
-	
-	
+	double pesos, dolares;
+
 	public double convertirPesos(double cantidad) {
-		
-		return (cantidad*0.05);
-		
+
+		return (cantidad * 0.05);
+
 	}
-	
-	
+
 	public double convertirDolares(double cantidad) {
-		
-		return cantidad*20;
-		
+
+		return cantidad * 20;
+
 	}
-	
-	//getters &setters
+
+	// getters &setters
 	public double getPesos() {
 		return pesos;
 	}
@@ -52,10 +48,5 @@ public class Convercion {
 	public void setDolares(double dolares) {
 		this.dolares = dolares;
 	}
-	
-	
-	
-	
-
 
 }

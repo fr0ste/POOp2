@@ -15,7 +15,6 @@
  * 
  */
 
-
 package multiplicacion;
 
 import java.util.Scanner;
@@ -23,22 +22,20 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		
+
 		Multiplicacion m = new Multiplicacion();
 		Scanner entrada = new Scanner(System.in);
-		
-		
+
 		System.out.println("ingrese la primera cifra");
 		m.setA(entrada.nextDouble());
 		System.out.println("ingrese la segunda cifra");
 		m.setB(entrada.nextDouble());
-		
+
 		m.multiplicar();
-		
+
 		System.out.println(m);
-		
+
 		entrada.close();
-		
 
 	}
 
