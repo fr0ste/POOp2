@@ -1,3 +1,19 @@
+/**************
+ * 
+ * Autor: Joel Francisco Figueroa Martinez
+ * 
+ * 
+ * Fecha de creacion: 05/04/2022
+ * 
+ * 
+ * Fecha de modificacion:
+ * 
+ * 
+ * Descripcion: uso de las converciones 
+ * 
+ * 
+ */
+
 package ejercicio2;
 
 import java.util.Scanner;

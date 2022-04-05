@@ -12,8 +12,6 @@
  * Descripcion: multiplicación de dos numeros enteros 
  * 
  * 
- * 
- * 
  */
 
 package multiplicacion;

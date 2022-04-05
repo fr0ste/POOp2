@@ -1,3 +1,19 @@
+/**************
+ * 
+ * Autor: Joel Francisco Figueroa Martinez
+ * 
+ * 
+ * Fecha de creacion: 01/04/2022
+ * 
+ * 
+ * Fecha de modificacion:
+ * 
+ * 
+ * Descripcion: uso de arreglos 
+ * 
+ * 
+ */
+
 package arreglo;
 
 public class Principal {

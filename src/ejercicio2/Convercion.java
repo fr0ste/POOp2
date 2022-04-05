@@ -1,3 +1,19 @@
+/**************
+ * 
+ * Autor: Joel Francisco Figueroa Martinez
+ * 
+ * 
+ * Fecha de creacion: 05/04/2022
+ * 
+ * 
+ * Fecha de modificacion:
+ * 
+ * 
+ * Descripcion: conversion de pesos a dolares y viceversa 
+ * 
+ * 
+ */
+
 package ejercicio2;
 
 public class Convercion {
