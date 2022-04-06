@@ -1,12 +1,14 @@
-package volCono;
+package triangulo;
 
 import java.util.Scanner;
 
+import rectangulo.Rectangulo;
 
 public class Main {
-
+	
+	
 	private static Scanner scan;
-	private static Cono cono;
+	private static Triangulo triangulo;
 
 	public static void main(String[] args) {
 		
@@ -14,20 +16,19 @@ public class Main {
 		 
 		 
 		 
-		 System.out.println("ingresa el radio");
-		 double radio = scan.nextDouble();
+		 System.out.println("ingresa la base");
+		 double base = scan.nextDouble();
 		 System.out.println("ingresa la altura");
 		 double altura = scan.nextDouble();
 		 
 		 
-		 cono = new Cono();
-		 cono.setAltura(altura);
-		 cono.setRadio(radio);
+		 triangulo = new Triangulo();
+		 triangulo.setAltura(altura);
+		 triangulo.setBase(base);
 		 
-		 cono.getVolumen();
+		 triangulo.imprimirArea();
 		 
 		 scan.close();
 		
 	}
-	
 }
