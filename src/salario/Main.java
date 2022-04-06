@@ -1,3 +1,20 @@
+/**************
+ * 
+ * Autor: Joel Francisco Figueroa Martinez
+
+ * 
+ * 
+ * Fecha de creacion: 06/04/2022
+ * 
+ * 
+ * Fecha de modificacion:
+ * 
+ * 
+ * Descripcion: 
+ * 
+ * 
+ */
+
 package salario;
 
 import java.util.Scanner;
