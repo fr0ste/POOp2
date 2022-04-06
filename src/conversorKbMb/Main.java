@@ -19,18 +19,14 @@ package conversorKbMb;
 
 import java.util.Scanner;
 
-
-
 public class Main {
 
 	public static Conversion conv;
 	public static Scanner e;
-	
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-	
+
 		boolean salir = true;
 		short opc = 0;
 		e = new Scanner(System.in);
@@ -80,9 +76,7 @@ public class Main {
 			}
 
 		} while (salir);
-		
-		
-		
+
 	}
 
 }

@@ -15,34 +15,25 @@
  * 
  */
 
-
 package salario;
 
 public class Salario {
 
 	private int horasTrabajadas;
-	
-	
+
 	public double getSalario(int horasTrabajadas) {
-		
-		return this.horasTrabajadas*12;
-		
+
+		return this.horasTrabajadas * 12;
+
 	}
 
-
-	
-	//getters & setters
+	// getters & setters
 	public int getHorasTrabajadas() {
 		return horasTrabajadas;
 	}
 
-
 	public void setHorasTrabajadas(int horasTrabajadas) {
 		this.horasTrabajadas = horasTrabajadas;
 	}
-	
-	
-	
-	
-	
+
 }

@@ -19,20 +19,15 @@ package factura;
 
 public class Factura {
 
-	
 	private double base;
-	
+
 	public void getTotalFactura() {
-		
-		System.out.println("el total es " + ((this.base * .16)+base));
-		
-		
+
+		System.out.println("el total es " + ((this.base * .16) + base));
+
 	}
 
-	
-	
-	
-	//getter & setters
+	// getter & setters
 	public double getBase() {
 		return base;
 	}
@@ -40,8 +35,5 @@ public class Factura {
 	public void setBase(double base) {
 		this.base = base;
 	}
-	
-	
-	
-	
+
 }

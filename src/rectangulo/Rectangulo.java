@@ -32,23 +32,20 @@ public class Rectangulo {
 		this.base = base;
 
 	}
-	
-	//metodos
-	
+
+	// metodos
+
 	public Double getArea() {
-		
+
 		return base * altura;
-		
-		
+
 	}
-	
+
 	public void imprimirArea() {
-		
+
 		System.out.println("El area del rectangulo es: " + this.getArea());
-		
+
 	}
-	
-	
 
 	// getters & setters
 	public double getBase() {

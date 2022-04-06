@@ -18,26 +18,23 @@
 package conversorKbMb;
 
 public class Conversion {
-	
-	
+
 	private double kilo;
 	private double mega;
-	
-	
+
 	public double calcularKbMb() {
-		
+
 		return this.kilo * 0.001;
-		
+
 	}
-	
+
 	public double calcularMbKb() {
-		
+
 		return this.mega * 1000;
-		
+
 	}
-	
-	
-	//getters & setters
+
+	// getters & setters
 
 	public double getKilo() {
 		return kilo;
@@ -54,9 +51,5 @@ public class Conversion {
 	public void setMega(double mega) {
 		this.mega = mega;
 	}
-	
-	
-	
-	
 
 }

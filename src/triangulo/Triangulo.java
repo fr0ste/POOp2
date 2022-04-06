@@ -21,25 +21,20 @@ public class Triangulo {
 
 	private double base;
 	private double altura;
-	
-	
-	
-	
+
 	public Double getArea() {
-		
-		return ((base * altura)/2);
-		
-		
-	}
-	
-	public void imprimirArea() {
-		
-		System.out.println("El area del triangulo es: " + this.getArea());
-		
+
+		return ((base * altura) / 2);
+
 	}
 
-	
-	//getters & setters
+	public void imprimirArea() {
+
+		System.out.println("El area del triangulo es: " + this.getArea());
+
+	}
+
+	// getters & setters
 	public double getBase() {
 		return base;
 	}
@@ -55,11 +50,5 @@ public class Triangulo {
 	public void setAltura(double altura) {
 		this.altura = altura;
 	}
-	
-	
-	
-	
-	
-	
-	
+
 }
